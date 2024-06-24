@@ -1,0 +1,84 @@
+/*
+Theme Name: 694
+Theme URI: http://avazak.ir
+Author: mohsen
+Author mail: http://www.info@avazak.ir
+Seo by: avazak.ir
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {text-align:right;color:#fff;font-family:Tahoma;font-size:8pt;padding:0px;margin:0px;background:#0e0e0e;direction:rtl;}
+
+A, A:visited{color:#fff;text-decoration:none;}
+A:hover{color:#db3f76;text-decoration:none;}
+
+img {border:0px;}
+
+::selection {background:#db3f76;color:#fff;}
+::-moz-selection {background:#db3f76;color:#fff;}
+
+#Avazak {width:1000px;background:#202020;float:left;margin:0px;padding:0px;}
+
+#header {width:1000px;height:375px;margin-bottom:15px;padding:0px;background:url('image/694.jpg')no-repeat top center;}
+#header .h1 {text-align:center;height:50px;font-family:arial;font-size:19pt;font-weight:bold;line-heigh:50px;padding:30px 0 0 0px;color:#fff;margin:0px;}
+#header .desc {height:50px;text-align:center;line-heigh:50px;color:#db3f76;margin:0;padding:0px;}
+#header .navbar {height:40px;width:500px;font-family:tahoma;font-size:8pt;line-heigh:40px;color:#db3f76;padding:219px 0 0 0;font-weight:bold;}
+#header .navbar a, #header .navbar a:visited {color:#fff;padding:0 5px;}
+#header .navbar a:hover {color:#db3f76;}
+
+#content {width:763px;float:right;margin:0 13px 0 0;}
+
+#bodyposts {float:left;text-align:right;width:550px;overflow:hidden;margin:0px;padding:0px;}
+
+#slidertop {width:550px;padding:15px 0;height:300px;background:url('image/694-10.jpg')no-repeat top center;overflow:hidden;}
+.nivoSlider {position:relative;}
+.nivo-directionNav a {position:absolute;top:45%;z-index:9;cursor:pointer;}
+.nivo-prevNav {left:0px;}
+.nivo-nextNav {right:0px;}
+#slider {position:relative;width:520px;height:250px;margin:0 15px;background:url('http://avazak.ir/Theme/js/nivoslider/image/loading.gif') no-repeat 50% 50%;}
+#slider a {border:0;display:block;}
+.nivo-controlNav {position:absolute;left:210px;bottom:-25px;}
+.nivo-controlNav a {display:block;width:22px;height:22px;background:url('http://avazak.ir/Theme/js/nivoslider/image/bullets.png') no-repeat;text-indent:-9999px;border:0;margin-right:3px;float:left;}
+.nivo-controlNav a.active {background-position:0 -22px;}
+.nivo-directionNav a {display:block;width:30px;height:30px;background:url('http://avazak.ir/Theme/js/nivoslider/image/arrows.png') no-repeat;text-indent:-9999px;border:0;}
+a.nivo-nextNav {background-position:-30px 0;right:15px;}
+a.nivo-prevNav {left:15px;}
+
+.post {width:550px;padding:0px;margin-bottom:15px;background:url('image/694-3.jpg')repeat-y center;}
+
+.post .title {height:70px;line-height:70px;font-size:9pt;margin:0px;font-weight:bold;color:#db3f76;background:url('image/694-2.jpg')no-repeat top;}
+.post .title a, .post .title a:visited {color:#fff;margin-right:80px}
+.post .title a:hover {color:#db3f76;}
+
+.post .Context {color:#fff;font-size:9pt;line-height:2em;margin:0px;margin:10px;overflow:hidden;}
+.post .Context a, .post .Context a:visited {color:#db3f76;}
+.post .Context a:hover {color:#fff;}
+
+.post .date {height:100px;width:550px;color:#db3f76;background:url('image/694-4.jpg')no-repeat bottom Right;margin:0px;padding:0;}
+.post .date a, .post .date a:visited {color:#fff;}
+.post .date a:hover {color:#db3f76;}
+.post .date .right {float:right;margin:0px;padding:23px 10px 0 0;}
+.post .date .left {float:left;margin:0px;padding:23px 0 0 20px;}
+
+#sidebar-r {float:right;width:200px;margin:0px;padding:0px;}
+#sidebar-l {float:left;width:200px;margin:0 0 0 13px;padding:0px;}
+
+.side {width:200px;margin:0 0 15px 0;text-align:right;background:url('image/694-5.jpg')repeat-y;padding:0px;color:#fff;overflow:hidden;}
+.h3 {font-size:9pt;width:200px;height:50px;line-height:50px;color:#db3f76;background:url('image/694-7.jpg')no-repeat top;text-align:center;margin:0px;padding:0px;}
+.context-side {overflow:hidden;font-size:8pt;line-height:25px;margin:0 7px;}
+.context-side a, .context-side a:visited {color:#fff;margin-right:7px;}
+.context-side a:hover {color:#db3f76;}
+.link {background:url('image/694-9.png')no-repeat right;padding-right:5px}
+.footer-side {width:200px;height:50px;background:url('image/694-6.jpg')no-repeat top center;margin:0;padding:0;}
+
+#footer {width:1000px;height:100px;line-height:100px;clear:both;color:#fff;text-align:center;margin:auto auto;background:url('image/694-8.jpg')no-repeat top center;}
+#footer a, #Footer a:visited {color:#fff;}
+#footer a:hover {color:#db3f76;}
+
+.pagination {margin:20px;font-familt:tahoma;font-size:9pt;text-align:center;color:#db3f76;}
+.pagination a{padding:6px;background:#000;color:#db3f76;margin:0 2px;}
+.pagination a:hover{padding:6px;background:#db3f76;color:#fff;margin:0 2px;}
+.current{padding:6px;background:#db3f76;color:#fff;}
